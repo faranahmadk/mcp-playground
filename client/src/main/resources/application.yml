@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo
+  ai:
+    model:
+      chat: vertexai
+    vertex:
+      ai:
+        gemini:
+          chat:
+            options:
+              model: gemini-1.5-pro-002
+              temperature: 0.8
+          project-id: ${GEMINI_PROJECT_ID}
+          location: ${GEMINI_PROJECT_LOC}
