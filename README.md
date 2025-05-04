@@ -1,1 +1,1 @@
-# mcp-playground
+# MCP Playground
