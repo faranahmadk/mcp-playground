@@ -1,0 +1,12 @@
+spring:
+  application:
+  name: server
+#  main:
+#    web-application-type: servlet
+#    banner-mode: off
+server:
+  port: 8081
+#
+#logging:
+#  pattern:
+#    console:
